@@ -1,7 +1,5 @@
 
 # tumblr              ●
-119.161.8.100 www.tumblr.com
-119.161.8.100 tumblr.com
 119.161.8.200 24.media.tumblr.com
 119.161.8.200 25.media.tumblr.com
 119.161.8.100 31.media.tumblr.com
@@ -22,19 +20,20 @@
 119.161.8.100 92.media.tumblr.com
 52.84.48.38 96.media.tumblr.com
 192.229.237.98 97.media.tumblr.com
+119.161.8.100 media.tumblr.com
 119.161.8.100 vt.media.tumblr.com
 119.161.9.100 vt.tumblr.com
 119.161.9.150 vtt.tumblr.com
+119.161.8.100 www.tumblr.com
+119.161.8.100 tumblr.com
 119.161.8.150 api.tumblr.com
 119.161.8.200 assets.tumblr.com
 119.161.8.100 secure.assets.tumblr.com
 119.161.8.100 static.tumblr.com
 119.161.8.100 secure.static.tumblr.com
-119.161.8.100 media.tumblr.com
 192.229.237.97 mx.tumblr.com
+127.0.0.1 graph.facebook.com
 66.6.32.162 t.umblr.com
 66.6.32.162 saber.srvcs.tumblr.com
 66.6.32.162 px.srvcs.tumblr.com
 66.6.32.162 ls.srvcs.tumblr.com
-127.0.0.1 graph.facebook.com
-

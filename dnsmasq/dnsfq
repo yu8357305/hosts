@@ -1,4 +1,4 @@
-## 2017-09-21 14:48:30
+## 2017-09-24 06:26:35
 ## https://github.com/sy618/hosts
 # This work is licensed under a CC BY-NC 4.0 International License.
 # 安全性问题：部分域名需要使用sni反向代理实现，并已清晰标注“ ★sni★”，未标注的域名全部为官方IP！不喜勿用！！
@@ -100,23 +100,23 @@ address=/images.duckduckgo.com/52.77.181.198
 
 ## Facebook/Instagram
 #facebook
-#address=/accountkit.com/157.240.13.35
-#address=/facebook.com/157.240.13.35
-#address=/facebook.net/157.240.13.35
-#address=/fb.com/157.240.13.35
-#address=/fb.me/157.240.13.35
-#address=/fbsbx.com/157.240.13.35
-#address=/m.me/157.240.13.35
-#address=/messenger.com/157.240.13.35
-#address=/thefacebook.com/157.240.13.35
+address=/accountkit.com/219.76.104.216
+address=/facebook.com/157.240.13.35
+address=/facebook.net/219.76.104.216
+address=/fb.com/219.76.104.216
+address=/fb.me/219.76.104.216
+address=/fbsbx.com/219.76.104.216
+address=/m.me/219.76.104.216
+address=/messenger.com/157.240.13.35
+address=/thefacebook.com/157.240.13.35
 address=/fbcdn.net/31.13.78.14
-address=/edge-mqtt.facebook.com/31.13.95.5
+address=/edge-mqtt.facebook.com/157.240.13.35
+address=/graph.facebook.com/0.0.0.0
 #ins
 address=/cdninstagram.com/31.13.82.52
 address=/instagram.com/31.13.82.52
 #
 address=/akamaihd.net/219.76.10.59
-address=/ak.facebook.com/219.76.10.59
 address=/ak.fbcdn.net/219.76.10.59
 address=/ak.instagram.com/219.76.10.59
 
@@ -138,78 +138,78 @@ address=/gist.github.com/192.30.253.118
 
 ## Google family
 #★sni★
-address=/admob.com/220.130.34.177
-address=/agoogleaday.com/220.130.34.177
-address=/android.com/220.130.34.177
-address=/appspot.com/220.130.34.177
-address=/blogblog.com/220.130.34.177
-address=/blogger.com/220.130.34.177
-address=/blogspot.com/220.130.34.177
-address=/chromium.org/220.130.34.177
-address=/com.google/220.130.34.177
-address=/dartlang.org/220.130.34.177
-address=/feedburner.com/220.130.34.177
-address=/g.co/220.130.34.177
-address=/gcr.io/220.130.34.177
-address=/ggpht.com/220.130.34.177
-address=/gmodules.com/220.130.34.177
-address=/golang.org/220.130.34.177
-address=/goo.gl/220.130.34.177
-address=/google.co.jp/220.130.34.177
-address=/google.co.kr/220.130.34.177
-address=/google.co.nz/220.130.34.177
-address=/google.co.uk/220.130.34.177
-address=/google.com.gi/220.130.34.177
-address=/google.com.hk/220.130.34.177
-address=/google.com.sg/220.130.34.177
-address=/google.com.tw/220.130.34.177
-address=/google.com/220.130.34.177
-address=/google.org/220.130.34.177
-address=/googleapis.com/220.130.34.177
-address=/googleapps.com/220.130.34.177
-address=/googlechinawebmaster.com/220.130.34.177
-address=/googlecode.com/220.130.34.177
-address=/googlecommerce.com/220.130.34.177
-address=/googledrive.com/220.130.34.177
-address=/googlegroups.com/220.130.34.177
-#address=/googlehosted.com/220.130.34.177
-address=/googleinsidesearch.com/220.130.34.177
-address=/googlemashups.com/220.130.34.177
-address=/googlesource.com/220.130.34.177
-address=/googlestore.com/220.130.34.177
-address=/googletagmanager.com/220.130.34.177
-address=/googleusercontent.com/220.130.34.177
-address=/googlewave.com/220.130.34.177
-address=/googlezeitgeist.com/220.130.34.177
-address=/googlezip.net/220.130.34.177
-address=/gstatic.com/220.130.34.177
-address=/gwtproject.org/220.130.34.177
-address=/html5rocks.com/220.130.34.177
-address=/keyhole.com/220.130.34.177
+address=/admob.com/219.76.104.216
+address=/agoogleaday.com/219.76.104.216
+address=/android.com/219.76.104.216
+address=/appspot.com/219.76.104.216
+address=/blogblog.com/219.76.104.216
+address=/blogger.com/219.76.104.216
+address=/blogspot.com/219.76.104.216
+address=/chromium.org/219.76.104.216
+address=/com.google/219.76.104.216
+address=/dartlang.org/219.76.104.216
+address=/feedburner.com/219.76.104.216
+address=/g.co/219.76.104.216
+address=/gcr.io/219.76.104.216
+address=/ggpht.com/219.76.104.216
+address=/gmodules.com/219.76.104.216
+address=/golang.org/219.76.104.216
+address=/goo.gl/219.76.104.216
+address=/google.co.jp/219.76.104.216
+address=/google.co.kr/219.76.104.216
+address=/google.co.nz/219.76.104.216
+address=/google.co.uk/219.76.104.216
+address=/google.com.gi/219.76.104.216
+address=/google.com.hk/219.76.104.216
+address=/google.com.sg/219.76.104.216
+address=/google.com.tw/219.76.104.216
+address=/google.com/219.76.104.216
+address=/google.org/219.76.104.216
+address=/googleapis.com/219.76.104.216
+address=/googleapps.com/219.76.104.216
+address=/googlechinawebmaster.com/219.76.104.216
+address=/googlecode.com/219.76.104.216
+address=/googlecommerce.com/219.76.104.216
+address=/googledrive.com/219.76.104.216
+address=/googlegroups.com/219.76.104.216
+#address=/googlehosted.com/219.76.104.216
+address=/googleinsidesearch.com/219.76.104.216
+address=/googlemashups.com/219.76.104.216
+address=/googlesource.com/219.76.104.216
+address=/googlestore.com/219.76.104.216
+address=/googletagmanager.com/219.76.104.216
+address=/googleusercontent.com/219.76.104.216
+address=/googlewave.com/219.76.104.216
+address=/googlezeitgeist.com/219.76.104.216
+address=/googlezip.net/219.76.104.216
+address=/gstatic.com/219.76.104.216
+address=/gwtproject.org/219.76.104.216
+address=/html5rocks.com/219.76.104.216
+address=/keyhole.com/219.76.104.216
 address=/mtalk.google.com/64.233.188.188
-address=/measurement.com/220.130.34.177
-address=/oneworldmanystories.com/220.130.34.177
-address=/orkut.com/220.130.34.177
-address=/panoramio.com/220.130.34.177
-address=/recaptcha.net/220.130.34.177
-address=/teachparentstech.org/220.130.34.177
-address=/thegooglepuzzle.com/220.130.34.177
-address=/transparency.org/220.130.34.177
-address=/urchin.com/220.130.34.177
-address=/webmproject.org/220.130.34.177
-address=/withgoogle.com/220.130.34.177
+address=/measurement.com/219.76.104.216
+address=/oneworldmanystories.com/219.76.104.216
+address=/orkut.com/219.76.104.216
+address=/panoramio.com/219.76.104.216
+address=/recaptcha.net/219.76.104.216
+address=/teachparentstech.org/219.76.104.216
+address=/thegooglepuzzle.com/219.76.104.216
+address=/transparency.org/219.76.104.216
+address=/urchin.com/219.76.104.216
+address=/webmproject.org/219.76.104.216
+address=/withgoogle.com/219.76.104.216
 #YouTube
-#address=/ytimg.com/220.130.34.177
-#address=/youtu.be/220.130.34.177
-#address=/youtubeeducation.com/220.130.34.177
-#address=/youtube-nocookie.com/220.130.34.177
-#address=/youtube.co/220.130.34.177
-#address=/youtube.com/220.130.34.177
+address=/ytimg.com/219.76.104.216
+address=/youtu.be/219.76.104.216
+address=/youtubeeducation.com/219.76.104.216
+address=/youtube-nocookie.com/219.76.104.216
+address=/youtube.co/219.76.104.216
+address=/youtube.com/172.217.27.4
 #ggc
-#address=/android.clients.google.com/220.130.34.177
-#address=/gcm-http.googleapis.com/220.130.34.177
-#address=/mail.google.com/220.130.34.177
-#address=/manifest.googlevideo.com/220.130.34.177
+#address=/android.clients.google.com/219.76.104.216
+#address=/gcm-http.googleapis.com/219.76.104.216
+#address=/mail.google.com/219.76.104.216
+#address=/manifest.googlevideo.com/219.76.104.216
 # google.cn IP
 #address=/redirector.googlevideo.com/203.208.43.105
 #address=/dl.google.com/203.208.43.105
@@ -220,9 +220,9 @@ address=/withgoogle.com/220.130.34.177
 #server=/gvt2.com/208.67.222.222#443
 #server=/googlevideo.com/208.67.222.222#443
 # sni
-#address=/googlevideo.com/220.130.34.177
-address=/gvt1.com/220.130.34.177
-address=/gvt2.com/220.130.34.177
+address=/googlevideo.com/219.76.104.216
+address=/gvt1.com/219.76.104.216
+address=/gvt2.com/219.76.104.216
 #
 
 ## HK01     
@@ -327,9 +327,9 @@ server=/torproject.org/208.67.222.222#443
 address=/twimg.com/104.244.43.135
 address=/twitpic.com/104.244.46.148
 server=/pscp.tv/208.67.222.222#443
-#address=/t.co/104.244.42.134
-#address=/tweetdeck.com/104.244.42.134
-#address=/twitter.com/104.244.42.134
+address=/t.co/104.244.42.134
+address=/tweetdeck.com/104.244.42.134
+address=/twitter.com/104.244.42.134
 #
 
 ## t66y
@@ -369,6 +369,7 @@ address=/videos4.xvideos.com/113.29.44.114
 server=/xvideos.com/208.67.222.222#443
 
 ## Yahoo/flickr/tumblr  
+address=/96.media.tumblr.com/52.84.48.38
 address=/97.media.tumblr.com/192.229.237.98
 #address=/android.imap.mail.yahoo.com/27.123.207.149
 #address=/android.smtp.mail.yahoo.com/106.10.150.156
