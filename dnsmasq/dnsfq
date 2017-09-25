@@ -1,4 +1,4 @@
-## 2017-09-24 06:26:35
+## 2017-09-25 19:22:36
 ## https://github.com/sy618/hosts
 # This work is licensed under a CC BY-NC 4.0 International License.
 # 安全性问题：部分域名需要使用sni反向代理实现，并已清晰标注“ ★sni★”，未标注的域名全部为官方IP！不喜勿用！！
@@ -36,7 +36,8 @@ server=/d3c33hcgiwev3.cloudfront.net/208.67.222.222#443
 server=/disqus.com/208.67.222.222#443
 
 ## Doubi  
-address=/doub.io/104.28.3.179
+#address=/doub.io/104.28.3.179
+server=/doub.io/208.67.222.222#443
 
 ## Dropbox
 address=/dropbox.com/162.125.248.1
@@ -100,13 +101,13 @@ address=/images.duckduckgo.com/52.77.181.198
 
 ## Facebook/Instagram
 #facebook
-address=/accountkit.com/219.76.104.216
+address=/accountkit.com/157.240.13.35
 address=/facebook.com/157.240.13.35
-address=/facebook.net/219.76.104.216
-address=/fb.com/219.76.104.216
-address=/fb.me/219.76.104.216
-address=/fbsbx.com/219.76.104.216
-address=/m.me/219.76.104.216
+address=/facebook.net/157.240.13.35
+address=/fb.com/157.240.13.35
+address=/fb.me/157.240.13.35
+address=/fbsbx.com/157.240.13.35
+address=/m.me/157.240.13.35
 address=/messenger.com/157.240.13.35
 address=/thefacebook.com/157.240.13.35
 address=/fbcdn.net/31.13.78.14
@@ -138,78 +139,78 @@ address=/gist.github.com/192.30.253.118
 
 ## Google family
 #★sni★
-address=/admob.com/219.76.104.216
-address=/agoogleaday.com/219.76.104.216
-address=/android.com/219.76.104.216
-address=/appspot.com/219.76.104.216
-address=/blogblog.com/219.76.104.216
-address=/blogger.com/219.76.104.216
-address=/blogspot.com/219.76.104.216
-address=/chromium.org/219.76.104.216
-address=/com.google/219.76.104.216
-address=/dartlang.org/219.76.104.216
-address=/feedburner.com/219.76.104.216
-address=/g.co/219.76.104.216
-address=/gcr.io/219.76.104.216
-address=/ggpht.com/219.76.104.216
-address=/gmodules.com/219.76.104.216
-address=/golang.org/219.76.104.216
-address=/goo.gl/219.76.104.216
-address=/google.co.jp/219.76.104.216
-address=/google.co.kr/219.76.104.216
-address=/google.co.nz/219.76.104.216
-address=/google.co.uk/219.76.104.216
-address=/google.com.gi/219.76.104.216
-address=/google.com.hk/219.76.104.216
-address=/google.com.sg/219.76.104.216
-address=/google.com.tw/219.76.104.216
-address=/google.com/219.76.104.216
-address=/google.org/219.76.104.216
-address=/googleapis.com/219.76.104.216
-address=/googleapps.com/219.76.104.216
-address=/googlechinawebmaster.com/219.76.104.216
-address=/googlecode.com/219.76.104.216
-address=/googlecommerce.com/219.76.104.216
-address=/googledrive.com/219.76.104.216
-address=/googlegroups.com/219.76.104.216
-#address=/googlehosted.com/219.76.104.216
-address=/googleinsidesearch.com/219.76.104.216
-address=/googlemashups.com/219.76.104.216
-address=/googlesource.com/219.76.104.216
-address=/googlestore.com/219.76.104.216
-address=/googletagmanager.com/219.76.104.216
-address=/googleusercontent.com/219.76.104.216
-address=/googlewave.com/219.76.104.216
-address=/googlezeitgeist.com/219.76.104.216
-address=/googlezip.net/219.76.104.216
-address=/gstatic.com/219.76.104.216
-address=/gwtproject.org/219.76.104.216
-address=/html5rocks.com/219.76.104.216
-address=/keyhole.com/219.76.104.216
+address=/admob.com/61.91.161.217
+address=/agoogleaday.com/61.91.161.217
+address=/android.com/61.91.161.217
+address=/appspot.com/61.91.161.217
+address=/blogblog.com/61.91.161.217
+address=/blogger.com/61.91.161.217
+address=/blogspot.com/61.91.161.217
+address=/chromium.org/61.91.161.217
+address=/com.google/61.91.161.217
+address=/dartlang.org/61.91.161.217
+address=/feedburner.com/61.91.161.217
+address=/g.co/61.91.161.217
+address=/gcr.io/61.91.161.217
+address=/ggpht.com/61.91.161.217
+address=/gmodules.com/61.91.161.217
+address=/golang.org/61.91.161.217
+address=/goo.gl/61.91.161.217
+address=/google.co.jp/61.91.161.217
+address=/google.co.kr/61.91.161.217
+address=/google.co.nz/61.91.161.217
+address=/google.co.uk/61.91.161.217
+address=/google.com.gi/61.91.161.217
+address=/google.com.hk/61.91.161.217
+address=/google.com.sg/61.91.161.217
+address=/google.com.tw/61.91.161.217
+address=/google.com/61.91.161.217
+address=/google.org/61.91.161.217
+address=/googleapis.com/61.91.161.217
+address=/googleapps.com/61.91.161.217
+address=/googlechinawebmaster.com/61.91.161.217
+address=/googlecode.com/61.91.161.217
+address=/googlecommerce.com/61.91.161.217
+address=/googledrive.com/61.91.161.217
+address=/googlegroups.com/61.91.161.217
+#address=/googlehosted.com/61.91.161.217
+address=/googleinsidesearch.com/61.91.161.217
+address=/googlemashups.com/61.91.161.217
+address=/googlesource.com/61.91.161.217
+address=/googlestore.com/61.91.161.217
+address=/googletagmanager.com/61.91.161.217
+address=/googleusercontent.com/61.91.161.217
+address=/googlewave.com/61.91.161.217
+address=/googlezeitgeist.com/61.91.161.217
+address=/googlezip.net/61.91.161.217
+address=/gstatic.com/61.91.161.217
+address=/gwtproject.org/61.91.161.217
+address=/html5rocks.com/61.91.161.217
+address=/keyhole.com/61.91.161.217
 address=/mtalk.google.com/64.233.188.188
-address=/measurement.com/219.76.104.216
-address=/oneworldmanystories.com/219.76.104.216
-address=/orkut.com/219.76.104.216
-address=/panoramio.com/219.76.104.216
-address=/recaptcha.net/219.76.104.216
-address=/teachparentstech.org/219.76.104.216
-address=/thegooglepuzzle.com/219.76.104.216
-address=/transparency.org/219.76.104.216
-address=/urchin.com/219.76.104.216
-address=/webmproject.org/219.76.104.216
-address=/withgoogle.com/219.76.104.216
+address=/measurement.com/61.91.161.217
+address=/oneworldmanystories.com/61.91.161.217
+address=/orkut.com/61.91.161.217
+address=/panoramio.com/61.91.161.217
+address=/recaptcha.net/61.91.161.217
+address=/teachparentstech.org/61.91.161.217
+address=/thegooglepuzzle.com/61.91.161.217
+address=/transparency.org/61.91.161.217
+address=/urchin.com/61.91.161.217
+address=/webmproject.org/61.91.161.217
+address=/withgoogle.com/61.91.161.217
 #YouTube
-address=/ytimg.com/219.76.104.216
-address=/youtu.be/219.76.104.216
-address=/youtubeeducation.com/219.76.104.216
-address=/youtube-nocookie.com/219.76.104.216
-address=/youtube.co/219.76.104.216
+address=/ytimg.com/61.91.161.217
+address=/youtu.be/61.91.161.217
+address=/youtubeeducation.com/61.91.161.217
+address=/youtube-nocookie.com/61.91.161.217
+address=/youtube.co/61.91.161.217
 address=/youtube.com/172.217.27.4
 #ggc
-#address=/android.clients.google.com/219.76.104.216
-#address=/gcm-http.googleapis.com/219.76.104.216
-#address=/mail.google.com/219.76.104.216
-#address=/manifest.googlevideo.com/219.76.104.216
+#address=/android.clients.google.com/61.91.161.217
+#address=/gcm-http.googleapis.com/61.91.161.217
+#address=/mail.google.com/61.91.161.217
+#address=/manifest.googlevideo.com/61.91.161.217
 # google.cn IP
 #address=/redirector.googlevideo.com/203.208.43.105
 #address=/dl.google.com/203.208.43.105
@@ -220,9 +221,9 @@ address=/youtube.com/172.217.27.4
 #server=/gvt2.com/208.67.222.222#443
 #server=/googlevideo.com/208.67.222.222#443
 # sni
-address=/googlevideo.com/219.76.104.216
-address=/gvt1.com/219.76.104.216
-address=/gvt2.com/219.76.104.216
+address=/googlevideo.com/61.91.161.217
+address=/gvt1.com/61.91.161.217
+address=/gvt2.com/61.91.161.217
 #
 
 ## HK01     
