@@ -1,11 +1,12 @@
-## 2017-09-25 19:22:36
-## https://github.com/sy618/hosts
-# 安全性问题：部分域名需要使用sni反向代理实现，并已清晰标注“ ★sni★”，未标注的域名全部为官方IP！不喜勿用！！
+#此dnsmasq配置作用是将一些被墙域名转到国外无污染的DNS服务器解析IP，仅能解决一些简单的DNS污染问题。
 
 ## Apkpure
-address=/apkpure.com/104.20.83.194
+#address=/apkpure.com/104.20.83.194
 #address=/pureapk.com/104.25.68.113
-address=/winudf.com/104.25.68.113
+#address=/winudf.com/104.25.68.113
+server=/apkpure.com/208.67.220.220#5353
+server=/winudf.com/208.67.220.220#5353
+server=/pureapk.com/208.67.220.220#5353
 
 ## Bbc  
 #address=/bbci.co.uk/23.219.133.5
@@ -15,83 +16,36 @@ address=/winudf.com/104.25.68.113
 #address=/www.bbc.co.uk/212.58.244.71
 #address=/r.bbci.co.uk/212.58.246.106
 #address=/open.live.bbc.co.uk/212.58.246.112
-server=/bbc.com/208.67.222.222#443
-server=/co.uk/208.67.222.222#443
+server=/bbc.com/208.67.220.220#5353
+server=/co.uk/208.67.220.220#5353
 
 ## Box
-address=/box.com/107.152.25.197
-address=/boxcdn.net/104.16.27.3
-address=/boxcloud.com/107.152.25.200
-address=/box.net/107.152.25.193
-address=/notes.services.box.com/107.152.25.207
-address=/support.box.com/104.218.203.34
+#address=/box.com/107.152.25.197
+#address=/boxcdn.net/104.16.27.3
+#address=/boxcloud.com/107.152.25.200
+#address=/box.net/107.152.25.193
+#address=/notes.services.box.com/107.152.25.207
+#address=/support.box.com/104.218.203.34
+server=/box.com/208.67.220.220#5353
+server=/box.net/208.67.220.220#5353
 
 ## Collector  
 #address=/d3c33hcgiwev3.cloudfront.net/54.230.156.123
-server=/d3c33hcgiwev3.cloudfront.net/208.67.222.222#443
+server=/d3c33hcgiwev3.cloudfront.net/208.67.220.220#5353
 
 ## Disqus  
 #address=/disqus.com/151.101.192.134
-server=/disqus.com/208.67.222.222#443
+server=/disqus.com/208.67.220.220#5353
 
 ## Doubi  
 #address=/doub.io/104.28.3.179
-server=/doub.io/208.67.222.222#443
+server=/doub.io/208.67.220.220#5353
 
 ## Dropbox
-address=/dropbox.com/162.125.248.1
-address=/www.dropbox.com/162.125.6.1
-address=/www.v.dropbox.com/162.125.6.1
-address=/support.dropbox.com/162.125.6.1
-address=/opensource.dropbox.com/162.125.6.1
-address=/linux.dropbox.com/162.125.6.1
-address=/texter.dropbox.com/162.125.6.1
-address=/dl.dropboxusercontent.com/162.125.3.6
-address=/dl.dropbox.com/162.125.3.6
-address=/dl-doc.dropbox.com/162.125.3.6
-address=/dl-web.dropbox.com/162.125.3.6
-address=/showbox.dropbox.com/162.125.3.6
-address=/files.dropbox.com/162.125.3.6
-address=/client-cf.dropbox.com/162.125.82.3
-address=/blogs.dropbox.com/54.192.212.178
-address=/forums.dropbox.com/54.192.212.178
-address=/marketing.dropbox.com/54.192.212.178
-address=/snapengage.dropbox.com/54.192.212.178
-address=/status.dropbox.com/54.192.212.178
-address=/cf.dropboxstatic.com/52.84.202.185
-address=/cfl.dropboxstatic.com/104.16.100.29
-address=/photo.dropbox.com/162.125.32.15
-address=/photos.dropbox.com/162.125.32.15
-address=/api-d.dropbox.com/162.125.82.7
-address=/api-notify.dropbox.com/162.125.82.7
-address=/api.dropbox.com/162.125.82.7
-address=/api.dropboxapi.com/162.125.82.7
-address=/api.v.dropbox.com/162.125.82.7
-address=/d.dropbox.com/162.125.82.7
-address=/d.v.dropbox.com/162.125.82.7
-address=/www.dropboxstatic.com/162.125.82.7
-address=/log.getdropbox.com/162.125.82.2
-address=/dbxlocal.dropboxstatic.com/162.125.32.12
-address=/client-lb.dropbox.com/162.125.32.12
-address=/client-web.dropbox.com/162.125.32.12
-address=/client.dropbox.com/162.125.32.12
-address=/client.v.dropbox.com/162.125.32.12
-address=/dl-debug.dropbox.com/34.197.140.43
-address=/m.dropbox.com/162.125.32.9
-address=/photos-thumb.dropbox.com/162.125.17.1
-address=/photos-thumb.x.dropbox.com/162.125.17.1
-address=/photos-1.dropbox.com/162.125.82.5
-address=/photos-2.dropbox.com/162.125.82.5
-address=/photos-3.dropbox.com/162.125.82.5
-address=/photos-4.dropbox.com/162.125.82.5
-address=/photos-5.dropbox.com/162.125.82.5
-address=/photos-6.dropbox.com/162.125.82.5
-address=/notify.dropbox.com/162.125.17.3
-address=/bolt.dropbox.com/162.125.17.3
-address=/api-content-photos.dropbox.com/162.125.17.1
-address=/api-content.dropbox.com/162.125.17.1
-address=/block.dropbox.com/162.125.32.131
-address=/block.v.dropbox.com/162.125.32.131
+server=/dropbox.com/208.67.220.220#5353
+server=/dropboxstatic.com/208.67.220.220#5353
+server=/getdropbox.com/208.67.220.220#5353
+server=/dropboxusercontent.com/208.67.220.220#5353
 
 ## DuckDuckGo
 address=/duckduckgo.com/46.51.218.82
@@ -99,26 +53,24 @@ address=/icons.duckduckgo.com/52.77.181.198
 address=/images.duckduckgo.com/52.77.181.198
 
 ## Facebook/Instagram
-#facebook
-address=/accountkit.com/157.240.13.35
-address=/facebook.com/157.240.13.35
-address=/facebook.net/157.240.13.35
-address=/fb.com/157.240.13.35
-address=/fb.me/157.240.13.35
-address=/fbsbx.com/157.240.13.35
-address=/m.me/157.240.13.35
-address=/messenger.com/157.240.13.35
-address=/thefacebook.com/157.240.13.35
-address=/fbcdn.net/31.13.78.14
-address=/edge-mqtt.facebook.com/157.240.13.35
-address=/graph.facebook.com/0.0.0.0
-#ins
-address=/cdninstagram.com/31.13.82.52
-address=/instagram.com/31.13.82.52
-#
-address=/akamaihd.net/219.76.10.59
-address=/ak.fbcdn.net/219.76.10.59
-address=/ak.instagram.com/219.76.10.59
+# facebook
+server=/accountkit.com/208.67.220.220#5353
+server=/facebook.com/208.67.220.220#5353
+server=/facebook.net/208.67.220.220#5353
+server=/fb.com/208.67.220.220#5353
+server=/fb.me/208.67.220.220#5353
+server=/fbsbx.com/208.67.220.220#5353
+server=/m.me/208.67.220.220#5353
+server=/messenger.com/208.67.220.220#5353
+server=/thefacebook.com/208.67.220.220#5353
+server=/fbcdn.net/208.67.220.220#5353
+# Instagram
+server=/cdninstagram.com/208.67.220.220#5353
+server=/instagram.com/208.67.220.220#5353
+# CDN
+server=/akamaihd.net/208.67.220.220#5353
+server=/ak.fbcdn.net/208.67.220.220#5353
+server=/ak.instagram.com/208.67.220.220#5353
 
 ## Flipboard   
 #address=/beacon.flipboard.com/23.23.66.189
@@ -128,254 +80,269 @@ address=/ak.instagram.com/219.76.10.59
 #address=/flipboard.helpshift.com/54.215.4.184
 #address=/s.flipboard.com/54.192.214.90
 #address=/ue.flipboard.com/23.23.66.189
-server=/flipboard.com/208.67.222.222#443
-server=/helpshift.com/208.67.222.222#443
+server=/flipboard.com/208.67.220.220#5353
+server=/helpshift.com/208.67.220.220#5353
 
 ## Github
 address=/gist.github.com/192.30.253.118
-#server=/github.com/208.67.222.222#443
-#server=/githubusercontent.com/208.67.222.222#443
+#server=/github.com/208.67.220.220#5353
+#server=/githubusercontent.com/208.67.220.220#5353
 
-## Google family
-#★sni★
-address=/admob.com/61.91.161.217
-address=/agoogleaday.com/61.91.161.217
-address=/android.com/61.91.161.217
-address=/appspot.com/61.91.161.217
-address=/blogblog.com/61.91.161.217
-address=/blogger.com/61.91.161.217
-address=/blogspot.com/61.91.161.217
-address=/chromium.org/61.91.161.217
-address=/com.google/61.91.161.217
-address=/dartlang.org/61.91.161.217
-address=/feedburner.com/61.91.161.217
-address=/g.co/61.91.161.217
-address=/gcr.io/61.91.161.217
-address=/ggpht.com/61.91.161.217
-address=/gmodules.com/61.91.161.217
-address=/golang.org/61.91.161.217
-address=/goo.gl/61.91.161.217
-address=/google.co.jp/61.91.161.217
-address=/google.co.kr/61.91.161.217
-address=/google.co.nz/61.91.161.217
-address=/google.co.uk/61.91.161.217
-address=/google.com.gi/61.91.161.217
-address=/google.com.hk/61.91.161.217
-address=/google.com.sg/61.91.161.217
-address=/google.com.tw/61.91.161.217
-address=/google.com/61.91.161.217
-address=/google.org/61.91.161.217
-address=/googleapis.com/61.91.161.217
-address=/googleapps.com/61.91.161.217
-address=/googlechinawebmaster.com/61.91.161.217
-address=/googlecode.com/61.91.161.217
-address=/googlecommerce.com/61.91.161.217
-address=/googledrive.com/61.91.161.217
-address=/googlegroups.com/61.91.161.217
-#address=/googlehosted.com/61.91.161.217
-address=/googleinsidesearch.com/61.91.161.217
-address=/googlemashups.com/61.91.161.217
-address=/googlesource.com/61.91.161.217
-address=/googlestore.com/61.91.161.217
-address=/googletagmanager.com/61.91.161.217
-address=/googleusercontent.com/61.91.161.217
-address=/googlewave.com/61.91.161.217
-address=/googlezeitgeist.com/61.91.161.217
-address=/googlezip.net/61.91.161.217
-address=/gstatic.com/61.91.161.217
-address=/gwtproject.org/61.91.161.217
-address=/html5rocks.com/61.91.161.217
-address=/keyhole.com/61.91.161.217
-address=/mtalk.google.com/64.233.188.188
-address=/measurement.com/61.91.161.217
-address=/oneworldmanystories.com/61.91.161.217
-address=/orkut.com/61.91.161.217
-address=/panoramio.com/61.91.161.217
-address=/recaptcha.net/61.91.161.217
-address=/teachparentstech.org/61.91.161.217
-address=/thegooglepuzzle.com/61.91.161.217
-address=/transparency.org/61.91.161.217
-address=/urchin.com/61.91.161.217
-address=/webmproject.org/61.91.161.217
-address=/withgoogle.com/61.91.161.217
+## Google
+server=/admob.com/208.67.220.220#5353
+server=/agoogleaday.com/208.67.220.220#5353
+server=/android.com/208.67.220.220#5353
+server=/appspot.com/208.67.220.220#5353
+server=/blogblog.com/208.67.220.220#5353
+server=/blogger.com/208.67.220.220#5353
+server=/blogspot.com/208.67.220.220#5353
+server=/chromium.org/208.67.220.220#5353
+server=/com.google/208.67.220.220#5353
+server=/dartlang.org/208.67.220.220#5353
+server=/feedburner.com/208.67.220.220#5353
+server=/g.co/208.67.220.220#5353
+server=/gcr.io/208.67.220.220#5353
+server=/ggpht.com/208.67.220.220#5353
+server=/gmodules.com/208.67.220.220#5353
+server=/golang.org/208.67.220.220#5353
+server=/goo.gl/208.67.220.220#5353
+server=/google.co.jp/208.67.220.220#5353
+server=/google.co.kr/208.67.220.220#5353
+server=/google.co.nz/208.67.220.220#5353
+server=/google.co.uk/208.67.220.220#5353
+server=/google.com.gi/208.67.220.220#5353
+server=/google.com.hk/208.67.220.220#5353
+server=/google.com.sg/208.67.220.220#5353
+server=/google.com.tw/208.67.220.220#5353
+server=/google.com/208.67.220.220#5353
+server=/google.org/208.67.220.220#5353
+server=/googleapis.com/208.67.220.220#5353
+server=/googleapps.com/208.67.220.220#5353
+server=/googlechinawebmaster.com/208.67.220.220#5353
+server=/googlecode.com/208.67.220.220#5353
+server=/googlecommerce.com/208.67.220.220#5353
+server=/googledrive.com/208.67.220.220#5353
+server=/googlegroups.com/208.67.220.220#5353
+server=/googlehosted.com/208.67.220.220#5353
+server=/googleinsidesearch.com/208.67.220.220#5353
+server=/googlemashups.com/208.67.220.220#5353
+server=/googlesource.com/208.67.220.220#5353
+server=/googlestore.com/208.67.220.220#5353
+server=/googletagmanager.com/208.67.220.220#5353
+server=/googleusercontent.com/208.67.220.220#5353
+server=/googlewave.com/208.67.220.220#5353
+server=/googlezeitgeist.com/208.67.220.220#5353
+server=/googlezip.net/208.67.220.220#5353
+server=/gstatic.com/208.67.220.220#5353
+server=/gwtproject.org/208.67.220.220#5353
+server=/html5rocks.com/208.67.220.220#5353
+server=/keyhole.com/208.67.220.220#5353
+server=/mtalk.google.com/64.233.188.188
+server=/measurement.com/208.67.220.220#5353
+server=/oneworldmanystories.com/208.67.220.220#5353
+server=/orkut.com/208.67.220.220#5353
+server=/panoramio.com/208.67.220.220#5353
+server=/recaptcha.net/208.67.220.220#5353
+server=/teachparentstech.org/208.67.220.220#5353
+server=/thegooglepuzzle.com/208.67.220.220#5353
+server=/transparency.org/208.67.220.220#5353
+server=/urchin.com/208.67.220.220#5353
+server=/webmproject.org/208.67.220.220#5353
+server=/withgoogle.com/208.67.220.220#5353
 #YouTube
-address=/ytimg.com/61.91.161.217
-address=/youtu.be/61.91.161.217
-address=/youtubeeducation.com/61.91.161.217
-address=/youtube-nocookie.com/61.91.161.217
-address=/youtube.co/61.91.161.217
-address=/youtube.com/172.217.27.4
-#ggc
-#address=/android.clients.google.com/61.91.161.217
-#address=/gcm-http.googleapis.com/61.91.161.217
-#address=/mail.google.com/61.91.161.217
-#address=/manifest.googlevideo.com/61.91.161.217
-# google.cn IP
-#address=/redirector.googlevideo.com/203.208.43.105
-#address=/dl.google.com/203.208.43.105
-#address=/redirector.gvt1.com/203.208.43.105
-#address=/translate.googleapis.com/203.208.43.105
-# open
-#server=/gvt1.com/208.67.222.222#443
-#server=/gvt2.com/208.67.222.222#443
-#server=/googlevideo.com/208.67.222.222#443
-# sni
-address=/googlevideo.com/61.91.161.217
-address=/gvt1.com/61.91.161.217
-address=/gvt2.com/61.91.161.217
-#
+server=/ytimg.com/208.67.220.220#5353
+server=/youtu.be/208.67.220.220#5353
+server=/youtubeeducation.com/208.67.220.220#5353
+server=/youtube-nocookie.com/208.67.220.220#5353
+server=/youtube.co/208.67.220.220#5353
+server=/youtube.com/208.67.220.220#5353
+server=/gvt1.com/208.67.220.220#5353
+server=/gvt2.com/208.67.220.220#5353
+server=/googlevideo.com/208.67.220.220#5353
 
 ## HK01     
-address=/hk01.com/54.192.75.121
+server=/hk01.com/208.67.220.220#5353
+#address=/hk01.com/54.192.75.121
 
 ##  Ingress    
-address=/crittercism.com/54.241.32.13
-address=/upsight-api.com/119.81.248.34
+#address=/crittercism.com/54.193.253.3
+#address=/upsight-api.com/169.44.145.213
+server=/crittercism.com/208.67.220.220#5353
+server=/upsight-api.com/208.67.220.220#5353
 
 ## Imgur
-address=/imgur.com/103.245.222.193
+#address=/imgur.com/103.245.222.193
+server=/imgur.com/208.67.220.220#5353
 
 ## Line   
-server=/line.me/208.67.222.222#443
-server=/line-apps.com/208.67.222.222#443
-server=/naver.jp/208.67.222.222#443
+server=/line.me/208.67.220.220#5353
+server=/line-apps.com/208.67.220.220#5353
+server=/naver.jp/208.67.220.220#5353
 
 ## Lineageos ROM
-server=/lineageos.org/208.67.222.222#443
+server=/lineageos.org/208.67.220.220#5353
 
 ## Medium
-server=/medium.com/208.67.222.222#443
+server=/medium.com/208.67.220.220#5353
 
 ## Mega   
-server=/mega.nz/208.67.222.222#443
-server=/co.nz/208.67.222.222#443
+server=/mega.nz/208.67.220.220#5353
+server=/co.nz/208.67.220.220#5353
 
 ## New York Time  
-address=/m.cn.nytimes.com/54.192.75.215
-address=/cn.nytimes.com/54.192.75.215
-address=/cn.nytstyle.com/54.192.75.215
-address=/static.sxzhchina.com/54.192.75.215
+#address=/m.cn.nytimes.com/54.192.75.215
+#address=/cn.nytimes.com/54.192.75.215
+#address=/cn.nytstyle.com/54.192.75.215
+#address=/static.sxzhchina.com/54.192.75.215
 #address=/ic.tynt.com/208.100.17.181
 #address=/l0.cn.nytimes.com/122.152.169.5
-address=/vp.nyt.com/104.89.126.83
-address=/nyt.com/151.101.77.164
-#address=/nytimes.com/151.101.77.164
-#address=/samizdat.nytimes.com/151.101.77.164
+#address=/vp.nyt.com/104.89.126.83
+#address=/nyt.com/151.101.89.164
+#address=/nytimes.com/151.101.89.164
+#address=/samizdat.nytimes.com/151.101.89.164
 #address=/sso.nytcn.me/54.250.193.44
-server=/nytimes.com/208.67.222.222#443
-server=/nytstyle.com/208.67.222.222#443
-server=/sxzhchina.com/208.67.222.222#443
-server=/tynt.com/208.67.222.222#443
-server=/nyt.com/208.67.222.222#443
-server=/nytcn.me/208.67.222.222#443
+server=/nytimes.com/208.67.220.220#5353
+server=/nytstyle.com/208.67.220.220#5353
+server=/sxzhchina.com/208.67.220.220#5353
+server=/tynt.com/208.67.220.220#5353
+server=/nyt.com/208.67.220.220#5353
+server=/nytcn.me/208.67.220.220#5353
 
-## Microsoft family
+## Microsoft 
 # onedrive
-address=/api.onedrive.live.com/23.77.13.193
-address=/api.onedrive.com/204.79.197.213
-address=/onedrive.live.com/204.79.197.217
-address=/skyapi.onedrive.live.com/157.55.109.228
+#address=/api.onedrive.live.com/23.77.13.193
+#address=/api.onedrive.com/204.79.197.213
+#address=/onedrive.live.com/204.79.197.217
+#address=/skyapi.onedrive.live.com/157.55.109.228
 # outlook
 #address=/outlook.live.com/40.97.119.194
+server=/live.com/208.67.220.220#5353
 
 ## Pengbo 
-server=/bloomberg.com/208.67.222.222#443
+server=/bloomberg.com/208.67.220.220#5353
+
+## Pingcong
+server=/pin-cong.com/208.67.220.220#5353
 
 ## Pinterest  
-address=/pinimg.com/151.101.76.84
-address=/pinterest.com/151.101.76.84
+#address=/pinimg.com/151.101.76.84
+#address=/pinterest.com/151.101.76.84
+server=/pinimg.com/208.67.220.220#5353
+server=/pinterest.com/208.67.220.220#5353
 
 ## Pixiv
-server=/pixiv.net/208.67.222.222#443
-server=/pixiv.org/208.67.222.222#443
-server=/pximg.net/208.67.222.222#443
+server=/pixiv.net/208.67.220.220#5353
+server=/pixiv.org/208.67.220.220#5353
+server=/pximg.net/208.67.220.220#5353
 
 ## Pornhub  
 #address=/pornhub.com/31.192.120.36
 #address=/services.pornhub.com/67.22.32.162
 #address=/hubt.pornhub.com/216.18.168.28
-server=/pornhub.com/208.67.222.222#443
-server=/phncdn.com/208.67.222.222#443
+server=/pornhub.com/208.67.220.220#5353
+server=/phncdn.com/208.67.220.220#5353
 
 ## Resilio Sync (BTSync)
-#address=/update.getsync.com/52.20.43.156
-#address=/new-bench.resilio.com/54.82.227.39
-#address=/help.resilio.com/188.172.138.1
-address=/config.getsync.com/54.192.75.121
-address=/config.resilio.com/54.192.75.121
-server=/resilio.com/208.67.222.222#443
-server=/getsync.com/208.67.222.222#443
+#address=/config.getsync.com/54.192.75.121
+#address=/config.resilio.com/54.192.75.121
+server=/resilio.com/208.67.220.220#5353
+server=/getsync.com/208.67.220.220#5353
 
 ## Rfi  
 #address=/cn.rfi.fr/23.2.16.219
 #address=/telechargement.rfi.fr/23.2.16.82
-server=/rfi.fr/208.67.222.222#443
+server=/rfi.fr/208.67.220.220#5353
 
 ## Telegram
 #address=/telegram.org/149.154.167.119
-#server=/telegram.org/208.67.222.222#443
+server=/telegram.org/208.67.220.220#5353
 
 ## Theinitium
-address=/initiummall.com/104.28.31.251
-address=/theinitium.com/104.28.31.251
+#address=/initiummall.com/104.28.31.251
+#address=/theinitium.com/104.28.31.251
+server=/initiummall.com/208.67.220.220#5353
+server=/theinitium.com/208.67.220.220#5353
 
 ## Tor   
 #address=/torproject.org/154.35.132.70
-server=/torproject.org/208.67.222.222#443
+server=/torproject.org/208.67.220.220#5353
 
 ## Twitter 
-address=/twimg.com/104.244.43.135
-address=/twitpic.com/104.244.46.148
-server=/pscp.tv/208.67.222.222#443
-address=/t.co/104.244.42.134
-address=/tweetdeck.com/104.244.42.134
-address=/twitter.com/104.244.42.134
-#
+#address=/twimg.com/104.244.43.135
+#address=/twitpic.com/104.244.46.148
+server=/pscp.tv/208.67.220.220#5353
+server=/t.co/208.67.220.220#5353
+server=/tweetdeck.com/208.67.220.220#5353
+server=/twitter.com/208.67.220.220#5353
+server=/twitpic.com/208.67.220.220#5353
+server=/twimg.com/208.67.220.220#5353
 
 ## t66y
-address=/t66y.com/104.25.32.112
+#address=/t66y.com/104.25.32.112
+server=/t66y.com/208.67.220.220#5353
 
 ## Vimeo  
 #address=/click.email.vimeo.com/198.245.92.39
 #address=/vimeo.com/23.235.37.217
 #address=/vimeocdn.com/151.101.78.109
-server=/vimeo.com/208.67.222.222#443
-server=/vimeocdn.com/208.67.222.222#443
+server=/vimeo.com/208.67.220.220#5353
+server=/vimeocdn.com/208.67.220.220#5353
 
 ## Voa
-address=/voanews.com/23.42.169.61
-address=/www.voachinese.com/23.42.169.61
+#address=/voanews.com/23.42.169.61
+#address=/www.voachinese.com/23.42.169.61
+server=/voanews.com/208.67.220.220#5353
+server=/voachinese.com/208.67.220.220#5353
 
 ## Wikipedia
-address=/upload.wikimedia.org/198.35.26.112
-address=/wikipedia.org/198.35.26.96
-address=/zh.m.wikipedia.org/198.35.26.96
-address=/wikinews.org/198.35.26.96
+#address=/upload.wikimedia.org/198.35.26.112
+#address=/wikipedia.org/198.35.26.96
+#address=/zh.m.wikipedia.org/198.35.26.96
+#address=/wikinews.org/198.35.26.96
+server=/wikipedia.org/208.67.220.220#5353
+server=/wikinews.org/208.67.220.220#5353
 
 ## W3schools
-address=/w3schools.com/192.229.179.87
+#address=/w3schools.com/192.229.179.87
+server=/w3schools.com/208.67.220.220#5353
 
 ## Xvideos
-address=/www.xvideos.com/185.88.181.2
-address=/static.xvideos.com/141.0.168.12
-address=/static-hw.xvideos.com/209.197.3.84
-address=/img-hw.xvideos.com/209.197.3.84
-address=/content.xvideos.com/205.185.208.170
-address=/edgecast-video.xvideos.com/152.195.11.1
-address=/videos1.xvideos.com/113.29.44.114
-address=/videos2.xvideos.com/113.29.44.114
-address=/videos3.xvideos.com/113.29.44.114
-address=/videos4.xvideos.com/113.29.44.114
-server=/xvideos.com/208.67.222.222#443
+#address=/www.xvideos.com/185.88.181.2
+#address=/static.xvideos.com/141.0.168.12
+#address=/static-hw.xvideos.com/209.197.3.84
+#address=/img-hw.xvideos.com/209.197.3.84
+#address=/content.xvideos.com/205.185.208.170
+#address=/edgecast-video.xvideos.com/152.195.11.1
+#address=/videos1.xvideos.com/113.29.44.114
+#address=/videos2.xvideos.com/113.29.44.114
+#address=/videos3.xvideos.com/113.29.44.114
+#address=/videos4.xvideos.com/113.29.44.114
+server=/xvideos.com/208.67.220.220#5353
 
 ## Yahoo/flickr/tumblr  
-address=/96.media.tumblr.com/52.84.48.38
-address=/97.media.tumblr.com/192.229.237.98
+# yahoo
 #address=/android.imap.mail.yahoo.com/27.123.207.149
 #address=/android.smtp.mail.yahoo.com/106.10.150.156
-address=/api.tumblr.com/119.161.8.150
-address=/assets.tumblr.com/119.161.8.200
+#address=/geo.query.yahoo.com/119.160.242.41
+#address=/info.yahoo.com/119.161.14.18
+#address=/lh.secure.yahoo.com/119.161.14.18
 #address=/http.atlas.cdn.yimg.com/119.161.8.82
+#address=/mg.mail.yahoo.com/119.161.14.18
+#address=/msb-mobile.m.yahoo.com/119.161.14.18
+#address=/news.yahoo.com/106.10.199.10
+#address=/overview.mail.yahoo.com/119.161.14.18
+#address=/policies.yahoo.com/119.161.14.18
+#address=/www.yahoo.com/106.10.138.240
+#address=/yahoo.co.jp/182.22.24.252
+#address=/yahooapis.jp/182.22.24.124
+#address=/yimg.com/119.161.14.18
+#address=/yimg.jp/182.22.31.252
+server=/yimg.jp/208.67.220.220#5353
+server=/yahooapis.jp/208.67.220.220#5353
+server=/yahoo.com/208.67.220.220#5353
+server=/yimg.com/208.67.220.220#5353
+server=/co.jp/208.67.220.220#5353
+# flickr
 #address=/code.flickr.com/192.0.79.32
 #address=/downloadr.flickr.com/68.142.242.184
 #address=/farm1.staticflickr.com/106.10.231.23
@@ -388,36 +355,63 @@ address=/assets.tumblr.com/119.161.8.200
 #address=/farm8.staticflickr.com/106.10.231.23
 #address=/farm9.staticflickr.com/106.10.231.23
 #address=/flickr.com/119.161.14.18
-#address=/geo.query.yahoo.com/119.160.242.41
-#address=/info.yahoo.com/119.161.14.18
-#address=/lh.secure.yahoo.com/119.161.14.18
-address=/media.tumblr.com/119.161.8.100
-#address=/mg.mail.yahoo.com/119.161.14.18
-#address=/msb-mobile.m.yahoo.com/119.161.14.18
-address=/mx.tumblr.com/192.229.237.97
-#address=/news.yahoo.com/106.10.199.10
-#address=/overview.mail.yahoo.com/119.161.14.18
-#address=/policies.yahoo.com/119.161.14.18
 #address=/secure.flickr.com/68.142.240.50
-address=/srvcs.tumblr.com/66.6.32.162
 #address=/static.flickr.com/106.10.231.23
+server=/staticflickr.com/208.67.220.220#5353
+server=/flickr.com/208.67.220.220#5353
+# tumblr
+address=/96.media.tumblr.com/52.84.48.38
+address=/97.media.tumblr.com/192.229.237.98
+address=/api.tumblr.com/119.161.8.150
+address=/assets.tumblr.com/119.161.8.200
+address=/media.tumblr.com/119.161.8.100
+address=/mx.tumblr.com/192.229.237.97
+address=/srvcs.tumblr.com/66.6.32.162
 address=/static.tumblr.com/119.161.8.100
 address=/t.umblr.com/66.6.32.162
 address=/tumblr.com/66.6.33.21
 address=/vt.tumblr.com/119.161.9.150
 address=/vtt.tumblr.com/119.161.9.100
 address=/www.tumblr.com/119.161.8.100
-#address=/www.yahoo.com/106.10.138.240
-#address=/yahoo.co.jp/182.22.24.252
-#address=/yahooapis.jp/182.22.24.124
-#address=/yimg.com/119.161.14.18
-#address=/yimg.jp/182.22.31.252
-server=/yimg.jp/208.67.222.222#443
-server=/yahooapis.jp/208.67.222.222#443
-server=/tumblr.com/208.67.222.222#443
-server=/yahoo.com/208.67.222.222#443
-server=/staticflickr.com/208.67.222.222#443
-server=/flickr.com/208.67.222.222#443
-server=/yimg.com/208.67.222.222#443
-server=/co.jp/208.67.222.222#443
+server=/tumblr.com/208.67.220.220#5353
+
+#@@@@@@ other  @@@@@@@@
+## mobilism
+#server=/mobilism.org/208.67.220.220#5353
+
+## btdb
+#server=/btdb.to/208.67.220.220#5353
+
+## javbus5.com
+server=/javbus.com/208.67.220.220#5353
+server=/javbus5.com/208.67.220.220#5353
+
+## asm.ca.com
+#server=/asm.ca.com/208.67.220.220#5353
+
+
+#@@@@@@@@@@@@@@@@@@@@@@
+## SERVER
+#server=/cn/114.114.114.114
+#server=/au/208.67.220.220#5353
+#server=/fr/208.67.220.220#5353
+#server=/hk/208.67.220.220#5353
+#server=/im/208.67.220.220#5353
+#server=/io/208.67.220.220#5353
+#server=/jp/208.67.220.220#5353
+#server=/kr/208.67.220.220#5353
+#server=/me/208.67.220.220#5353
+#server=/net/208.67.220.220#5353
+#server=/nz/208.67.220.220#5353
+#server=/org/208.67.220.220#5353
+#server=/pw/208.67.220.220#5353
+#server=/ru/208.67.220.220#5353
+#server=/sg/208.67.220.220#5353
+#server=/sh/208.67.220.220#5353
+#server=/to/208.67.220.220#5353
+#server=/tv/208.67.220.220#5353
+#server=/tw/208.67.220.220#5353
+#server=/uk/208.67.220.220#5353
+
+
 

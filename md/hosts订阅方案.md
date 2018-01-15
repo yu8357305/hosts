@@ -18,8 +18,3 @@
 - https://github.com/wangchunming/2017hosts
 - https://github.com/lennylxx/ipv6-hosts
 - ...
-
-```javascript
-* 注1：勿多个FQ hosts合用。很多人似乎喜欢大杂烩，这样极易产生冲突问题。同时对于对应hosts项目无任何帮助。
-* 注2：本项目只维护方案一hosts。
-```
