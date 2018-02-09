@@ -1,3 +1,4 @@
+## 2018-02-09 19:54:44
 #此dnsmasq配置作用是将一些被墙域名转到国外无污染的DNS服务器解析IP，仅能解决一些简单的DNS污染问题。
 
 ## Apkpure
@@ -210,10 +211,10 @@ server=/nytcn.me/208.67.220.220#5353
 
 ## Microsoft 
 # onedrive
-#address=/api.onedrive.live.com/23.77.13.193
-#address=/api.onedrive.com/204.79.197.213
-#address=/onedrive.live.com/204.79.197.217
-#address=/skyapi.onedrive.live.com/157.55.109.228
+address=/api.onedrive.live.com/23.77.13.193
+address=/api.onedrive.com/204.79.197.213
+address=/onedrive.live.com/204.79.197.217
+address=/skyapi.onedrive.live.com/157.55.109.228
 # outlook
 #address=/outlook.live.com/40.97.119.194
 server=/live.com/208.67.220.220#5353

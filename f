@@ -1,8 +1,7 @@
 
-127.0.0.1 localhost
-::1 localhost
-
-# Yahoo&flickr          ●
+#gcm
+64.233.189.188 mtalk.google.com
+# Yahoo&flickr         
 68.142.242.184 real-min-ruler.secure.yahoo.com
 69.147.92.11 flickr.com
 98.136.145.80 secure.flickr.com
@@ -68,8 +67,6 @@
 223.119.50.145 us.js2.yimg.com
 
 # Instagram
-#31.13.78.52
-#31.13.76.84
 23.210.215.64 ig-l-b-a.akamaihd.net
 23.210.215.90 ig-l-d-a.akamaihd.net
 23.210.215.96 ig-l-a-a.akamaihd.net
@@ -143,8 +140,6 @@
 198.35.26.96 login.wikimedia.org
 198.35.26.112 upload.wikimedia.org
 198.35.26.96 zh.m.wikinews.org
-#91.198.174.192 zh.wikipedia.org
-#91.198.174.192 zh.m.wikipedia.org
 
 # apkpure
 104.23.102.175 download.apkpure.com
@@ -154,10 +149,6 @@
 104.23.103.175 a.apkpure.com
 104.23.103.175 apkpure.com
 104.23.103.175 m.apkpure.com
-#104.25.68.113 d0.winudf.com
-#104.25.68.113 d1.winudf.com
-#104.25.68.113 api.pureapk.com
-#104.25.68.113 image.winudf.com
 
 # medium
 104.16.117.145 api.medium.com
@@ -167,7 +158,6 @@
 104.16.124.127 medium.com
 
 # tumblr              
-#           /I
 13.33.206.239 96.media.tumblr.com
 119.161.14.20 56.media.tumblr.com
 119.161.14.20 57.media.tumblr.com
@@ -201,7 +191,7 @@
 119.161.9.100 vtt.tumblr.com
 119.161.8.100 vt.tumblr.com
 127.0.0.1 graph.facebook.com
-#          T/
+
 66.6.32.162 t.umblr.com
 66.6.32.162 saber.srvcs.tumblr.com
 66.6.32.162 px.srvcs.tumblr.com
@@ -215,18 +205,11 @@
 # outlook
 #40.97.119.194 outlook.live.com
 
-# vimeo          ●
-#             /T
+# vimeo          
 198.245.92.39 click.email.vimeo.com
-#            I/
 151.101.0.217 vimeo.com
 151.101.0.217 api.vimeo.com
 151.101.0.217 player.vimeo.com
-#151.101.78.109 fpdl.vimeocdn.com
-#151.101.78.109 fresnel.vimeocdn.com
-#151.101.78.109 skyfire.vimeocdn.com
-#151.101.78.109 f.vimeocdn.com
-#151.101.78.109 i.vimeocdn.com
 
 # pinterest               
 54.149.226.209 post.pinterest.com
@@ -263,22 +246,16 @@
 13.33.28.131 www.hk01.com
 13.33.28.71 hk01.com
 
-# pornhub        ●
+# pornhub        
 67.22.32.162 services.pornhub.com
 216.18.168.28 hubt.pornhub.com
 31.192.120.36 www.pornhub.com
 31.192.120.36 pornhub.com
 31.192.120.36 jp.pornhub.com
-#205.185.208.142 dm.phncdn.com
-#205.185.208.142 cdn1d-static-shared.phncdn.com
-#152.195.33.132 ci.phncdn.com
-#152.195.33.132 cm.phncdn.com
-#203.77.191.86 bi.phncdn.com
 # t66y                    
 104.25.32.112 t66y.com
 104.25.32.112 www.t66y.com
-#104.31.77.12
-# xvideos        ●
+# xvideos        
 8.253.181.221 videos1.xvideos.com
 8.253.181.221 videos2.xvideos.com
 67.27.35.251 videos3.xvideos.com
@@ -293,7 +270,7 @@
 # github
 192.30.253.118 gist.github.com
 
-# pixiv             ●
+# pixiv             
 210.129.120.41 oauth.secure.pixiv.net
 210.129.120.41 www.pixiv.co.jp
 210.129.120.41 www.pixiv.net
@@ -321,3 +298,11 @@
 210.140.92.135 public-img-comic.pximg.net
 210.140.92.140 i.pximg.net
 210.140.92.141 pixiv.pximg.net
+
+#pin cong
+#104.24.125.68 pin-cong.com
+#104.24.106.197 pincimg.com
+
+
+
+
