@@ -300,8 +300,8 @@
 210.140.92.141 pixiv.pximg.net
 
 #pin cong
-#104.24.125.68 pin-cong.com
-#104.24.106.197 pincimg.com
+104.24.125.68 pin-cong.com
+104.24.106.197 pincimg.com
 
 
 
